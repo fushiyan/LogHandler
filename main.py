@@ -6,7 +6,7 @@ import json
 import re
 
 
-def print_hi(name):
+def Print_FirewallLogs(name):
     file = open('iptables.log', 'r')
     Lines = file.readlines()
 
@@ -44,6 +44,6 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    Print_FirewallLogs('Firewall Logs')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
